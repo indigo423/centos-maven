@@ -1,4 +1,5 @@
-FROM indigo/centos-jdk8:latest
+FROM opennms/openjdk:8u121-jdk
+
 MAINTAINER ronny@no42.org
 
 ENV MAVEN_VERSION 3.3.9
